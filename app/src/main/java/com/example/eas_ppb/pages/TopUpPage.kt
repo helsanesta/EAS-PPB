@@ -85,7 +85,7 @@ fun TopUpPage(navController: NavHostController){
                 DynamicSelectTextField(
                     selectedValue = selectedPaymentMethod,
                     options = PaymentTopUpMethods.paymentMethods,
-                    label = "Pilih Stasiun Keberangkatan",
+                    label = "Pilih Metode Top Up",
                     onValueChangedEvent = { newValue ->
                         selectedPaymentMethod = newValue
                         metodeBayar = newValue
